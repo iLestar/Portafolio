@@ -1,7 +1,9 @@
 <template>
-  <HelloWorld />
+  <v-app id="home">
+    <Navbar />
+  </v-app>
 </template>
 
 <script setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
+  import Navbar from '@/components/Navbar.vue'
 </script>
